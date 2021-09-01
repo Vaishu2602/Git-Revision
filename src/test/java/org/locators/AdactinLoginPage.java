@@ -24,7 +24,10 @@ public class AdactinLoginPage extends BaseClass{
 	public WebElement getTxtUserName() {
 		return txtUserName;
 	}
-
+private void test2() {
+	// TODO Auto-generated method stub
+System.out.println("Test 2 done");
+}
 	public WebElement getTxtPassword() {
 		return txtPassword;
 	}
