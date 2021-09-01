@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Validating login function with valid username and valid password.",
+        "description": "",
+        "id": "validating-login-function-of-facebook-website;validating-login-function-with-valid-username-and-valid-password.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1366601,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User is on facebook website",
+            "match": {
+              "location": "StepDef.user_is_on_facebook_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21000,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User should enter username and password",
+            "match": {
+              "location": "StepDef.user_should_enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9999,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "User should click login button",
+            "match": {
+              "location": "StepDef.user_should_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10200,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "User should validate home page is present or not",
+            "match": {
+              "location": "StepDef.user_should_validate_home_page_is_present_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@reg"
+          }
+        ]
+      }
+    ],
+    "name": "Validating login function of facebook website",
+    "description": "",
+    "id": "validating-login-function-of-facebook-website",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Login.feature",
+    "tags": []
+  }
+]
